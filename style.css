@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color: tan;
+
+}
+h1{
+    margin-bottom: 50px;
+
+  
+}
+.container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+   box-shadow: 5px 5px;;
+}
+
+input, button , select {
+    margin: 10px 0;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background-color: tan;
+    color: white;
+    cursor: pointer;
+    border: none;
+    background-color :tan;
+}
+.output p {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
